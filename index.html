@@ -77,7 +77,7 @@
     function changeBackground() {
       section.style.backgroundImage = backgrounds[currentBackground];
       currentBackground = (currentBackground + 1) % backgrounds.length;
-      setTimeout(changeBackground, 3000); // Change background every 3 seconds
+      setTimeout(changeBackground, 5000); // Change background every 3 seconds
     }
 
     changeBackground(); // Start the background change
