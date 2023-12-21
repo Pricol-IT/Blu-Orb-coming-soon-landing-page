@@ -12,7 +12,7 @@
 
 .heading {
   font-family: "Great Vibes", cursive;
-  font-size: 60px;
+  font-size: 5vw;
   color: #b89e4b;
 }
 
@@ -27,7 +27,7 @@
 .content {
   font-family: "Raleway";
   font-size: 18px;
-  /* margin-top: 32px; */
+  padding: 0px 50px;
 }
 
 .logo img {
@@ -50,16 +50,13 @@
   .content {
     font-size: 12px;
     margin-top: 12px;
+    padding: 0px 10px;
   }
 
   .container {
     height: auto;
     width: 80vw;
     padding: 10px;
-  }
-
-  .section {
-    height: auto;
   }
 }
 
